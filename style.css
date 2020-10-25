@@ -1,0 +1,73 @@
+@font-face {font-family:"Open Sans Extrabold";
+src:url("OpenSans-ExtraBold.eot?") format("eot"),
+url("OpenSans-ExtraBold.woff") format("woff"),
+url("OpenSans-ExtraBold.ttf") format("truetype"),
+url("OpenSans-ExtraBold.svg#OpenSans-Extrabold") 
+format("svg");font-weight:normal;font-style:normal;}
+
+
+@font-face {font-family:"Open Sans Regular";
+src:url("OpenSans-Regular.ttf") }
+
+
+
+
+#planning
+{ color: red;}
+
+#dossier
+{color: green;}
+
+#Onedrive
+{color : blue;}
+
+#presentation{color: purple;}
+
+
+p
+{font-size: 1.5em;}
+
+
+body   
+{ 
+background: linear-gradient(110deg, #d9e9ff 60%, #dc3327 60%, #dc3327 65%, #f2b200 65%, #f2b200 70%, #40bfb3 70%, #40bfb3 75%, #fa9bf6 75%) ;
+
+font-family: "Open Sans Regular", Arial, sans-serif; }
+ 
+
+#titre{
+font-size: 2em; 
+font-family: "Open Sans Extrabold", Arial, sans-serif;}
+
+
+.grosentete{ 
+	display: flex;
+	background-color: rgba(115, 151, 199,0.3); 
+	justify-content: space-between;
+	margin-left: -8px; 
+	margin-right: -8px;
+	margin-top: -8px;
+	align-items: center;
+}
+
+
+#logo{height: 100px; margin-bottom: -5px;}
+#logoimt{height: 75px; }
+#logocollege{height: 75px;}
+
+#logos{margin-top: 3px;}
+
+
+#menu{display: flex; list-style: none;}
+
+.elemenu{margin-right: 30px;}
+
+h3{width: 60%;}
+
+li.elemenu:hover {color: #575757;}
+
+ #boutonlien{
+ 	color: black;
+ 	text-decoration: none;}
+
+ #menu a:hover{color: #575757; }
